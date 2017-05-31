@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('fonts/roboto/Roboto-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('fonts/roboto/Roboto-Regular.woff') format('woff');
+}
+
+.progress {
+  height: 2.5%;
+  border-radius: 10px;
+}
+
+.card .card-image img {
+    height: 32%;
+}
+
+.brand-logo {
+  margin-top: 1%;
+}
+
+.menu {}
+
+.menu-item:hover {
+  background-color: #424242;
+}
+
+.menu-nav {
+  font-size: 30px !important;
+  margin-left: -100%;
+}
+
+.parallax-container-first {
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, .73) 17%, rgba(0, 0, 0, .66) 35%, rgba(0, 0, 0, .55) 62%, rgba(0, 0, 0, .4));
+  color: #cfcfcf;
+  height: 93%;
+}
+
+.parallax-container-skills {
+  height: 65%;
+}
+
+.parallax-container-blog {
+  height: 85%;
+}
+
+.parallax-container-trabalhos {
+  height: 75%;
+}
+
+.title-home {
+  margin-top: 20%;
+  font-size: 3em;
+}
+
+.title-skills {
+  font-size: 3em;
+  margin-top: 2%;
+}
+
+.arrow-home {
+  margin-top: 16%;
+  font-size: 4em;
+  border-radius: 50%;
+  transition: all .3s ease-in-out;
+}
+
+.arrow-home:hover {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transform: scale(1.2);
+}
+
+.subtitle-home {
+  font-size: 1.2em;
+  font-family: 'Roboto-Thin';
+}
+
+.frase-about {
+  font-family: 'Roboto-Thin';
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+
+.bold-text {
+  font-family: 'Roboto-Regular';
+  font-weight: bold;
+}
+
+.title-section {
+  font-size: 1.77em;
+  margin-top: 7%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.icon-services {
+  font-size: 4em;
+  padding: 6%;
+}
+
+.icon-services:hover {
+  background-color: #0091ea;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+
+.icon-blog {
+  font-size: 1rem;
+}
+
+.border-services {
+  border: 5px solid #0091ea;
+  border-radius: 50%;
+}
+
+.font-services {
+  font-size: 18px;
+}
+
+.media {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.media-body {
+  background: rgba(33, 33, 33, .75);
+  bottom: 0;
+  color: white;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.media-body:hover {
+  opacity: 1;
+}
+
+.side-nav {
+  display: none;
+}
+
+.line {
+  border-top: 4px solid #0091ea;
+  height: 10px;
+  width: 60px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 4%;
+}
+
+.card-custom {
+  margin-top: 8%;
+}
+
+.img-responsive {
+  height: 60%;
+}
+
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label,
+input[type=url]:focus:not([readonly])+label,
+input[type=time]:focus:not([readonly])+label,
+input[type=date]:focus:not([readonly])+label,
+input[type=datetime]:focus:not([readonly])+label,
+input[type=datetime-local]:focus:not([readonly])+label,
+input[type=tel]:focus:not([readonly])+label,
+input[type=number]:focus:not([readonly])+label,
+input[type=search]:focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #0091ea;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #0091ea;
+  box-shadow: 0 1px 0 0 #0091ea;
+}
+
+.social {
+  margin-top: 1%;
+}
+
+.animating {
+  -webkit-animation: progress 4s ease-in-out;
+}
+
+@-webkit-keyframes progress {
+  0% {
+    width: 0%;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1366px) {
+  .parallax-container-skills {
+    height: 65%;
+  }
+  .parallax-container-blog {
+    height: 120%;
+  }
+  .img-responsive {
+    height: 50%;
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .parallax-container-skills {
+    height: 85%;
+  }
+  .parallax-container-blog {
+    height: 120%;
+  }
+  .parallax-container-trabalhos {
+    height: 100%;
+  }
+  .img-responsive {
+    height: 50%;
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 992px) {
+  .img-responsive {
+    height: 50%;
+    margin-top: 5%;
+  }
+  .menu {
+    display: none;
+  }
+  .side-nav {
+    display: inherit;
+  }
+}
+
+@media (max-width: 420px) {
+  .menu {
+    display: none;
+  }
+  .title-home {
+    margin-top: 20%;
+    font-size: 2em;
+  }
+  .subtitle-home {
+    font-size: 0.9em;
+    font-family: 'Roboto-Thin';
+  }
+  .img-responsive {
+    height: 40%;
+  }
+  .parallax-container-blog {
+    height: auto;
+  }
+  .parallax-container-trabalhos {
+    height: auto;
+  }
+  .side-nav {
+    display: inherit;
+  }
+}
